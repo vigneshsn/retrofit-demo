@@ -20,9 +20,9 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	compile("com.squareup.retrofit2:retrofit:2.3.0")
-	compile("com.squareup.retrofit2:converter-gson:2.3.0")
-	compile("io.github.microutils:kotlin-logging:1.4.3")
+	implementation("com.squareup.retrofit2:retrofit:2.3.0")
+	implementation("com.squareup.retrofit2:converter-gson:2.3.0")
+	implementation("io.github.microutils:kotlin-logging:1.4.3")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
